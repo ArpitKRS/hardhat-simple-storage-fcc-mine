@@ -1,7 +1,13 @@
-//imports
+// imports
+
 
 //asyn main
-async function main() {}
+async function main() {
+  const SimpleStorageContract = await ethers.deployContract("SimpleStorage");
+  console.log("Deploying Contract...");
+  await SimpleStorageContract.waitForDeployment();
+  console.log("Deploying Contract To:", await SimpleStorageContract.getAddress());
+}
 
 // main
 main()

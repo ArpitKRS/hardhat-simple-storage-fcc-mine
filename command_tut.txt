@@ -3,6 +3,7 @@ npm add --dev hardhat
 npx hardhat choose javascript project
 npm install --save-dev "hardhat@^2.16.1" "@nomicfoundation/hardhat-toolbox@^3.0.0"
 npm install --dev hardhat-deploy
+(WAYS OF DEPLOYMENT CHANGED IN HARDHAT, DIFFERENT FROM THE TUTORIAL)
 npm install --save-dev @nomicfoundation/hardhat-ethers	
 npm add --save-dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers	
 npm install --save-dev @nomiclabs/hardhat-etherscan solidity-coverage hardhat-gas-reporter dotenv hardhat-contract-sizer
