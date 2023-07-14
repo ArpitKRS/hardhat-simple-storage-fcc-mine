@@ -7,3 +7,9 @@ npm install --dev hardhat-deploy
 npm install --save-dev @nomicfoundation/hardhat-ethers	
 npm add --save-dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers	
 npm install --save-dev @nomiclabs/hardhat-etherscan solidity-coverage hardhat-gas-reporter dotenv hardhat-contract-sizer
+(Make an App on alchemy for the corresponding TestNet)
+(Try deploying the contract on your own Ether TestNet)
+Verify also after deploying.
+If you have hardhat-toolbox installed, you can go ahead and remove "@nomiclabs/hardhat-etherscan": "^3.1.7" from the code.
+Will only need to import require("@nomicfoundation/hardhat-toolbox"); in hardhat.config file.
+And const {ethers, run, network} = require("hardhat") in deploy.js file.
