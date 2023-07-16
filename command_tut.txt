@@ -13,3 +13,5 @@ Verify also after deploying.
 If you have hardhat-toolbox installed, you can go ahead and remove "@nomiclabs/hardhat-etherscan": "^3.1.7" from the code.
 Will only need to import require("@nomicfoundation/hardhat-toolbox"); in hardhat.config file.
 And const {ethers, run, network} = require("hardhat") in deploy.js file.
+
+(DON'T RUN THIS SHIT, IT'S LATEST)
