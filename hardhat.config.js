@@ -4,6 +4,7 @@ require("./tasks/block-number");
 require("hardhat-gas-reporter");
 require("solidity-coverage");
 
+// Also keep their alternative with (||) OR operator
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
